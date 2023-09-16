@@ -9,26 +9,35 @@
     
 </head>
 <body>
-    <nav>
-        <ul>
-            <li>
-               <a href="index.html">Início</a>
-            </li>
-             <li>
-                <a href="sn.html">Sobre Nós</a> 
-             </li>
-             <li>
-                <a href="contact.html">Contato</a> 
-             </li>
-        </ul>
-    </nav>
+    <!-- Cabeçalho da página inicial !-->
+    <header>
+        <nav>
+            <a class="logo" href="image/favicon-32x32.png">EcoTech</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
 
-    <form class="contact-form" action="https://formsubmit.co/ecotech.descartelixoeletronico@gmail.com" method="POST">
-        <label for="email">E-mail</label>
-        <input type="email" name="email" required>
-        <label for="message">Mensagem</label>
-        <input type="text" name="message" id="message" required>
-        <button type="submit">Send</button>
-   </form>
+            <ul class="nav-list">
+                <li><a href="index.html">Início</a></li>
+                 <li><a href="sn.html">Sobre</a></li>
+                 <li><a href="contact.html">Contato</a> </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <form class="contact-form" action="https://formsubmit.co/ecotech.descartelixoeletronico@gmail.com" method="POST">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" required>
+            <label for="message">Mensagem</label>
+            <input type="text" name="message" id="message" required>
+            <button type="submit">Send</button>
+       </form>
+    </main>
+
+    <script src="mobile-navbar.js"></script>
 </body>
 </html>
