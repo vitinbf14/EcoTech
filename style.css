@@ -80,6 +80,29 @@ p {
     color: #666;
 }
 
+.mission-vision > h2 {
+    text-align: center;
+    color: #333;
+}
+
+.mission-vision > h3 {
+    text-align: center;
+    color: #333;
+}
+
+.mission-vision > p {
+    text-align: center;
+}
+
+.team > p {
+    text-align: center;
+}
+
+.team > h2 {
+    text-align: center;
+    color: #333;
+}
+
 /* Estilizando o Rodapé */
 footer {
     background-color: #333;
